@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../imgs/waves.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  color: black;
+}
+
+h1{
+  text-align: center;
+}
+
+.container {
+  border: 2px solid white;
+  border-radius: 10px;
+  min-width: 98vw;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.4rem);
+  box-shadow: 0.25rem 0.25rem 1rem rgba(255, 255, 255, 0.6);
+}
+
+.card-profile h2{
+  text-align: center;
+}
+
+.row{
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  margin: 5px;
+  text-align: center;
+}

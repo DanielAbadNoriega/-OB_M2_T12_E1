@@ -13,8 +13,10 @@
 </head>
 
 <body>
-  <h1>Elementos de interés en Bootstrap</h1>
+  <h1 class="bg-warning m-auto rounded py-10 px-5 text-light display-3 fw-bold mb-3"
+    style="width: fit-content;">Elementos de interés en Bootstrap</h1>
   <div class="container">
+    <!-- Jumbotron -->
     <section class="sect-Jumb">
       <div class="bg-light p-5 rounded-3 container-fluid mt-2 mb-2">
         <h2 class="display-3 fw-bold">Custom Jumbotron</h2>
@@ -24,9 +26,28 @@
         <button class="btn bg-primary text-light btn-lg">Button</button>
       </div>
     </section>
+    <!-- Form -->
     <section class="form">
       <h2>Formulario</h2>
+      <form action="" class="p-2 bg-white rounded">
+        <!-- nombre -->
+        <div class="mb-3">
+          <label for="nombre" class="form-label"> Nombre</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
+        <!-- telefono -->
+        <div class="mb-3">
+          <label for="telefono" class="form-label"> Telefono </label>
+          <input type="text" class="form-control" id="telefono" placeholder="+34 ">
+        </div>
+        <!-- mensaje -->
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Escribe tu mensaje</label>
+          <textarea name="mensaje" id="mensaje" class="form-control" cols="30" rows="5"></textarea>
+        </div>
+      </form>
     </section>
+    <!-- Card Profile -->
     <section class="card-profile">
       <h2>Card profile</h2>
       <div class="card mb-2" style="width: 50vw;">
@@ -34,12 +55,11 @@
           <h3 class="card-title">Daniel Abad Noriega</h3>
           <p class="card-text">I'm learning about bootstrap with the great bootcamp "Open Bootcamp"!</p>
         </div>
-        <div class="card-footer row">
+        <div class="card-footer d-flex">
           <a href="http://www.linkedin.com/in/danielabadnoriega"
-            class="bg-primary text-light rounded-3 py-2 px-4 col-5">My linkedin.</a>
+            class="bg-primary text-light rounded-3 py-2 px-4 col-md-5">My linkedin.</a>
           <a href="mailto:daniel.abad.noriega@gmail.com" target="_blank"
-            class="bg-warning text-light rounded-3 py-2 px-4 col-md-5">
-            daniel.abad.noriega@gmail.com</a>
+            class="bg-warning text-light rounded-3 py-2 px-4 col-md-5"> daniel.abad.noriega@gmail.com</a>
         </div>
       </div>
     </section>

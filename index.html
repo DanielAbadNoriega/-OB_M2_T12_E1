@@ -23,7 +23,8 @@
         <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid numquam
           cum veritatis facilis repellendus dolorem, sapiente ipsa, fuga, modi obcaecati molestiae sit. Velit
           at pariatur, sit asperiores sequi doloremque!</p>
-        <button class="btn bg-primary text-light btn-lg">Button</button>
+        <button type="button" class="btn bg-primary text-light btn-lg" data-bs-toggle="modal"
+          data-bs-target="#jumbotron-modal">Button</button>
       </div>
     </section>
     <!-- Form -->
@@ -64,9 +65,26 @@
       </div>
     </section>
   </div>
+  <!-- Modal -->
+  <div class="modal" id="jumbotron-modal" tab-index="1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <h4 class="modal-header">Jumbotron Modal</h4>
+        <div class="modal-body">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Nostrum, enim.</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal"
+            data-bs-backdrop="false"> Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-  crossorigin="anonymous"></script>
 
 </html>
